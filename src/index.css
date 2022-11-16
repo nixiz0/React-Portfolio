@@ -39,7 +39,7 @@ body {
     color: var(--color-semi-white);
     line-height: 1.6;
     background-image: url(../src/assets/bg_texture.jpg);
-    background-size:cover;
+    background-size:auto;
 }
 
 /* ======== Style General ========= */
@@ -58,6 +58,7 @@ h1 {
 
 section {
     margin-top: 8rem;
+    height: 100vh;
 }
 
 section > h2, section > h5 {
