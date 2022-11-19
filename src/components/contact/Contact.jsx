@@ -30,7 +30,7 @@ const contact = () => {
             <a href="https://www.linkedin.com/feed/" target="_blank"> Discuter sur Linkedin </a>
           </article>
         </div>
-          <form name="myForm" method="post" data-netlify="true">
+          <form name="myForm" method="post" netlify data-netlify="true">
             <input type="text" name="name" placeholder='Nom & Prénom' required/>
             <input type="email" name="email" placeholder='Email' required/>
             <textarea name="message" row="7" placeholder='Votre message' required></textarea>
